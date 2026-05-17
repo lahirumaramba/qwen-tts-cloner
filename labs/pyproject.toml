@@ -1,0 +1,13 @@
+[project]
+name = "qwen-tts-cloner"
+version = "0.1.0"
+description = "A rapid, high-fidelity voice cloning tool based on Qwen3-TTS and Piper TTS dataset generation and training."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "librosa>=0.11.0",
+    "numpy>=2.4.4",
+    "qwen-tts>=0.1.1",
+    "soundfile>=0.13.1",
+    "torch>=2.11.0",
+]

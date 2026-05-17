@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thum-bs.db
+ehthumbs.db
+
+# Output & Synthesized Audio
+*.wav
+*.mp3
+!reference.wav # keep reference audio examples if explicitly named, or we can just ignore all wavs generally
+
+# Models & Training Checkpoints
+*.onnx
+*.onnx.json
+*.ckpt
+lightning_logs/
+piper_logs/
+.ipynb_checkpoints/
+
