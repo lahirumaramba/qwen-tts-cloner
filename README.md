@@ -3,6 +3,7 @@
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-Active-orange.svg?logo=googlecolab)](https://colab.research.google.com/)
 [![Google Drive](https://img.shields.io/badge/Google%20Drive-Integrated-blue.svg?logo=googledrive)](https://drive.google.com/)
 [![TTS Engine](https://img.shields.io/badge/Piper--TTS-16kHz%20Offline-green.svg)](https://github.com/rhasspy/piper)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Labs](https://img.shields.io/badge/labs-experimental-red.svg)](./labs/)
 
 A voice cloning pipeline that leverages **Qwen3-TTS** model family and the **Piper TTS** training engine. 
@@ -154,3 +155,9 @@ uv run clone_voice.py \
 
 * **Qwen3-TTS**: The model architecture is built by [Qwen Team](https://github.com/QwenLM/Qwen3-TTS).
 * **Piper TTS**: Fast, local neural text-to-speech system developed by [Rhasspy](https://github.com/rhasspy/piper).
+
+---
+
+## ⚖️ License
+
+This project is licensed under the [MIT License](LICENSE).
